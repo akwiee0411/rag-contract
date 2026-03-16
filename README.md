@@ -1,0 +1,2 @@
+gradio.ipynb是gui和gui相關的邏輯處理
+parsetool 是合約解析的工具 也就是分割文件的部分
