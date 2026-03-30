@@ -98,19 +98,3 @@ python app.py
 
 ---
 
-## .gitignore 建議
-
-```
-__pycache__/
-*.pyc
-config.py
-text_result/
-temp_split_docs/
-*.jpg
-```
-
----
-
-## License
-
-MIT
