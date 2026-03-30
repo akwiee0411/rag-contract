@@ -19,7 +19,7 @@
 ```
 app.py                  # Gradio 主介面
 ui_helpers.py           # UI 元件與互動邏輯
-parsetool.py      # 合約解析器 + RAG 查詢引擎
+parsetool.py            # 合約解析器 + RAG 查詢引擎
 doc_processor.py        # PDF/DOCX 處理、OCR、索引建立
 cache_manager.py        # Embedding 快取 / QA 快取管理
 
