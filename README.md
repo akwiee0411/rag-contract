@@ -61,29 +61,12 @@ pip install gradio llama-index pdfplumber pdf2image pymupdf pillow \
 
 > OCRFlux-3B 需另行下載模型權重，請參考 [OCRFlux 官方說明](https://github.com/chatdoc-com/OCRFlux)。
 
-### 路徑設定
 
-複製並修改設定檔：
-
-```bash
-cp config.example.py config.py
-```
-
-`config.py` 內容：
-
-```python
-from pathlib import Path
-
-BASE_DIR        = Path.home() / "rag_contract"   # 修改為你的實際路徑
-TEXT_RESULT_DIR = str(BASE_DIR / "text_result")
-TEMP_SPLIT_DIR  = str(BASE_DIR / "temp_split_docs")
-```
-
----
 
 ## 使用方式
 
 ```bash
+conda activate contract
 python app.py
 ```
 
