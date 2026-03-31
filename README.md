@@ -313,6 +313,7 @@ A：於介面右上角的「AI 模型」下拉選單選擇其他已下載的 Oll
 A：建議使用 NVIDIA GPU，並確認 PyTorch 已安裝 CUDA 版本。在 `app.py` 中 `HuggingFaceEmbedding` 的 `device` 參數設為 `"cuda"`（預設即是）。
 
 ---
+使用者操作指引簡報:https://docs.google.com/presentation/d/1snh-0PudB6ykapWTr_aoIbpB7kP2t9oVC_JWT6ru_4I/edit?usp=sharing
 
 ## License
 
