@@ -52,6 +52,7 @@ app.py
 **重點**：`parsetool.py` 反向依賴 `ui_helpers.py` 的 `_check_abort`（截斷機制），
 這是唯一的反向依賴。若 `ui_helpers.py` 改名，需要同步修改 `parsetool.py` 第 997 行。
 
+
 ---
 
 ## 2. 路徑設定（換機器必看）
