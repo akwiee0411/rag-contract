@@ -62,7 +62,8 @@
 ### 啟動系統
 
 ```bash
-python app.py
+conda activate contract #啟動已經架好的環境
+python app.py #需要是實際的檔案位置
 ```
 
 啟動後開啟瀏覽器，前往 `http://localhost:8080`（或區域網路 IP）即可使用。
